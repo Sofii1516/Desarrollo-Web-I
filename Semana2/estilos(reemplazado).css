@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    font-size: 16px;
+    color: maroon;
+    background-color:white;
+    line-height: 1.6;
+    font-family: "Macondo", cursive;
+}
+
+h1, h2, h3{
+    color:darkgoldenrod;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.contenedor{
+    max-width: 720px;
+    margin: 10px auto; /*Margin top y margin bottom de 10 px y el auto hace que izquierda y derecha se reparta para que quede centrado*/
+    padding: 26px;
+}
+
+#encabezado{
+    background-color:peru;
+    border-bottom: 4px solid #593011;
+}
+
+#encabezado .contenedor{
+    text-align: center;
+}
+
+.marca{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.seccion-clara{
+    background-color:rgb(255, 237, 135);
+}
+
+.seccion-oscura{
+    background-color:burlywood;
+}
+
+.seccion .contenedor{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}

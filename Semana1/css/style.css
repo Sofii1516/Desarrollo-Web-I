@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* El selector universal (*{}) elige todo y a todo le aplica el stilo */
+/*{
+    border: 1px;
+    border-style: dotted;
+} Aqui aplica borde a todo */
+
+
+body{
+    background-image: url(../img/Diseño\ AoT.jpg);
+    background-position: 50% 50%;
+    background-color: cornflowerblue;
+    color: midnightblue;
+    font-family:Georgia, 'Times New Roman', Times, serif; /*Primera opcion (georgia) es la que escogo, si el usuario no tiene instalada esa, vamos a opción 2 (Times New Roman) y si no tiene ninguna opcion, Escoge la ultima opcion que solo es la familia*/
+    line-height: 0.5 rem; /*Line height es el interlineado*/
+}
+
+header{
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(237, 221, 83, 1) 100%);
+    color:gold;
+    text-align: center;
+    padding: 30px ;/*Para darle un poco más de espacio entre el contenido del header y su cajita de color*/
+}
+
+header h1{font-family: "Montserrat", sans-serif; /*La fuente importada*/
+    /* Ese header a la par del h1 dice que solo se aplique este stilo al h1 de header, y el resto no importan*/
+    font-size: 28px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{ /* Para darle formato a los que tengan la clase container*/
+    max-width: 760px;
+    padding: 20px; /* Espacio interno */
+    margin: 30px auto; /* Espacio externo */
+}
+
+.container article{ /*Elije a los article que están dentro de container*/
+    background-color: rgba(240, 50, 200,0.8);
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 20px;
+}
+
+footer{
+    background-color: lightskyblue;
+    color:sandybrown;
+    text-align: center;
+    padding: 25px;
+}
